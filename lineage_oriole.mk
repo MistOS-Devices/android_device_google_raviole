@@ -13,7 +13,7 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # MISTOS
 MIST_BUILD_TYPE := OFFICIAL
 MISTOS_MAINTAINER := srly8
-#WITH_GMS := true
+WITH_GMS := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
