@@ -27,6 +27,11 @@
     "target_path": "device/google/raviole-kernels"
   },
   {
+    "repository": "packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX",
+    "branch": "16.2"
+  },
+  {
     "repository": "Libra420T/vendor_google_camera",
     "remote": "github-non-los",
     "branch": "16",
