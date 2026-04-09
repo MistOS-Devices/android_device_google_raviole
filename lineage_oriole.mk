@@ -7,6 +7,9 @@
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# ViPER4Android FX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # MISTOS
 MIST_BUILD_TYPE := OFFICIAL
 MISTOS_MAINTAINER := srly8
